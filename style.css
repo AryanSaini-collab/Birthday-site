@@ -1,0 +1,115 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    color:#ffffff;
+    background: linear-gradient(lightblue,rgb(206, 112, 127));
+
+    text-shadow: 0px 0px 1px black;
+}
+#main-photo{
+    /* background-image: url('https://i.redd.it/tbhr8ewlfph41.jpg'); */
+    width: 170px;
+    height:170px;
+    border-radius: 50%;
+    border:7px solid #ffb2e2 ;
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#age{
+  background: #ffb2e2;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin:5px 9px;
+}
+
+#date{
+  margin-top: 2px;
+  background: #ffb2e2;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+.gif-cover{
+  width:400px;
+  height: 450px;
+  border: 4px solid white;
+  border-radius: 5px;
+  background-image: url('/images/gifcover.jpg');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#one:hover{
+  background-image: url('/images/happy.gif');
+}
+#two:hover{
+  
+  background-image: url('/images/hot.gif');
+}
+
+#three:hover{
+
+  background-image: url('/images/hipster\ love\ GIF.gif');
+  background-size: cover;
+}
+
+#four:hover{
+  background-image:url('/images/penguin.gif');
+}
+.gif-section{
+  margin-top: 30px;
+
+}
+.gif-title{
+
+  margin-bottom: 0px;
+}
+
+.gif-hint{
+
+  margin-top: 8px;
+}
+
+
+#oy{
+  width: 450px;
+  height: 300px;
+
+}
+
+#oy:hover{
+  background-image:url('/images/I\ Belive\ I\ Can\ Fly\ Blue\ Sky\ GIF.gif') ;
+
+
+}
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.footer{
+  
+  margin: 60px auto;
+  font-family: "Momo Trust Display", sans-serif;
+}
+a{
+  color: rgb(18, 50, 255);
+}
+
